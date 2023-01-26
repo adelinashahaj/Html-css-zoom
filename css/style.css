@@ -21,13 +21,27 @@ header{
     width: 100vw;
 
 }
-span{
-    right: 0;
-    position: absolute;
-    background-color: rgba(208, 207, 207, 0.932);
+.top{
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+
+}
+.buttone-header{
+   
+    display: flex;
+    justify-content: end;
+}
+
+.buttone{
+   
+    color: white;
+    background-color: rgb(74, 74, 74);
     border-radius: 2px 3px;
-   margin: 10px;
-   padding: 5px;
+    margin: 10px;
+    padding: 5px;
+   
 }
 #contenitore{
    width: 90%;
@@ -61,7 +75,7 @@ img{
 .footer-top{
     
     display: flex;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100px;
 }
