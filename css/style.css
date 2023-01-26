@@ -32,24 +32,37 @@ span{
 #contenitore{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    height: 100vh;
+    width: 80%;
     margin: 50px auto 0 auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+   
 }
 
 .colonne{
     width: calc(100% / 7);
-    padding: 20px;
-    display: inline-block;
    
+    padding: 50px;
+    display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     margin: 15px 5px;
+    
+    
+
+   
+}
+img{
+   
+   
+    padding: 50px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
    
 }
 
