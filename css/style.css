@@ -72,6 +72,19 @@ img{
     
    
 }
+.indetification{
+    color: white;
+    position: relative;
+
+}
+h6{
+    position: absolute;
+    bottom: 7px;
+    background-color: forestgreen;
+    left: 3px;
+    padding: 3px;
+
+}
 footer{
     position: fixed;
     z-index: 9;
